@@ -38,4 +38,17 @@ public class NSEPInfo {
     public String getUrl() {
         return url;
     }
+
+    @Override
+    public String toString() {
+        return "NSEPInfo{" +
+                "date=" + date +
+                ", explanation='" + explanation + '\'' +
+                ", hdurl='" + hdurl + '\'' +
+                ", media_type='" + media_type + '\'' +
+                ", service_version='" + service_version + '\'' +
+                ", title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

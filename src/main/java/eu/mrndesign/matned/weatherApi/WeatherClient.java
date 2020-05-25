@@ -53,7 +53,7 @@ public class WeatherClient {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         WeatherClient weatherClient = new WeatherClient();
-        String weather = weatherClient.getCityWeatherJson("Wrocław,pl");
+        String weather = weatherClient.getCityWeatherJson("Wroclaw,pl");
 
         System.out.println(weather);
 
